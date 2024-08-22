@@ -1,1 +1,1 @@
-console.log("test");
+// Define HTML elements
