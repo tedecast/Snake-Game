@@ -113,19 +113,23 @@ function startGame() {
 function handleKeyPress(event) {
   if (
     (!gameStarted && event.code == "Space") ||
-    (!gameStarted && event.code == " ")
+    (!gameStarted && event.key == " ")
   ) {
     startGame();
   } else {
     switch (event.key) {
       case "ArrowUp":
         direction = "up";
+        break;
       case "ArrowDown":
         direction = "down";
+        break;
       case "ArrowLeft":
         direction = "left";
+        break;
       case "ArrowRight":
         direction = "right";
+        break;
     }
   }
 }
