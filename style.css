@@ -83,8 +83,8 @@ body,
 }
 
 .food {
-    background-color: #dedede;
-    border: #999 5px solid;
+    background-color: red;
+    border: darkred 5px solid;
 }
 
 #logo {
